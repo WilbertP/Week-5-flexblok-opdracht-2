@@ -75,6 +75,9 @@ font-weight: bold;
     align-items: stretch;
 }
 .main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 fill;
     padding: 1rem;
 }
     .sidebar {
