@@ -1,0 +1,100 @@
+
+*/* {
+    border: 1px solid red;
+} 
+*/
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+img {
+max-width: 30vmin;
+}
+body {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #1E7896;
+    display: flex;
+    flex: 1 0 auto;
+    padding: 0 1rem;
+}
+
+.site-name {
+display: flex;
+align-items: center;
+flex: 1 0 auto;
+color: lightgrey;
+font-size: 22;
+font-weight: bold; 
+}
+
+.navigation-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+    .nav-link {
+        padding: 0 1rem;
+    }
+        a {
+            text-decoration: none;
+            color: lightgrey;
+            }
+            
+        a:hover {
+        text-decoration:
+        underline;
+        color: white;
+        }
+
+.mid-section {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    align-items: flex-start;
+}
+.main-section-top {
+    display: flex;
+    width: 100vw;
+    text-align: justify;
+    max-width: 100vw;
+    align-items: stretch;
+}
+.main-content {
+    padding: 1rem;
+}
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 auto;
+        font-size: 12px;
+         background: gainsboro; 
+    }
+
+    figure {
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;  
+    }
+
+.main-section-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background:  rgb(50, 71, 78);
+    flex: 0 1 auto;
+    min-width: 100vw;
+}
